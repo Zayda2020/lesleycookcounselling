@@ -1,0 +1,159 @@
+/* Font google */
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+body, ul, li {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+body {
+  background-color: powderblue;
+}
+/* NAVIGATION */
+
+#top-nav .main-items {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  flex-grow: 0.8;
+  flex-direction: row;
+  align-items:center;
+}
+
+#top-nav {
+  background-color: powderblue;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+#top-nav li {
+  list-style-type: none;
+  font-size: 25px;
+}
+
+#top-nav li a {
+  text-decoration: none;
+  font-family: 'Dosis', sans-serif;
+  color: rgb(17, 45, 46);
+  padding: 15px 30px;
+}
+
+#top-nav li a:hover {
+  color: #FFF;
+  background-color: rgb(145, 172, 190);
+}
+
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 70px;
+}
+.align-center {
+  border: 1px solid grey;
+  padding: 3px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px grey;
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.align-different {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  display: block;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px grey;
+  
+
+}
+.align-center-email {
+display: block;
+margin-left: 670px;
+
+
+}
+h1, h2 {
+  text-align: center;
+}
+
+footer {
+  display: inline;
+  justify-content: center;
+  padding: 5px;
+  background-color: #89b2be;
+  color: #fff;
+}
+
+p, dl {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+}
+
+cite {
+
+  margin-left: 20%;
+}
+
+#contactme {
+width: 155px;
+position: absolute;
+left: 350px;
+top: 450px;
+}
+
+#contactlesley {
+  margin-right: 800px;
+}
+
+#help-finger {
+  width: 155px;
+  position: absolute;
+  right: 350px;
+  top: 460px;
+  }
+
+
+.center {
+  text-align: center;
+  list-style-position: inside;
+}
+  ol.center li {
+    text-align: left;
+    margin-left: 45%;
+
+  }
+
+  /**
+ * Footer Styles
+ */
+
+ .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: powderblue;
+  color: rgb(71, 70, 70);
+  text-align: center;
+}
+
+dt {
+  font-weight: bold;
+}
